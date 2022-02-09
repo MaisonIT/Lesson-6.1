@@ -1,0 +1,118 @@
+/* Обнуляющий стиль */
+@import url(null.css);
+
+/* &display=swap Для подключения шрифта */
+
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Comfortaa:wght@400;700&family=IBM+Plex+Serif:ital,wght@1,700&family=Lobster&family=Pacifico&family=Yanone+Kaffeesatz:wght@300&display=swap");
+
+body {
+	font-size: 20px;
+	font-family: "Comfortaa", cursive;
+	font-weight: 400;
+}
+img {
+	width: 800px;
+	height: 400px;
+	margin: 0 0 20px 100px;
+}
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.main-title,
+.title2,
+.list-title,
+.list-title2,
+.title-about,
+.title3 {
+	margin: 0 0 20px 0;
+	font-family: "Pacifico", cursive;
+	font-size: 60px;
+	color: darkblue;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+h2.list-title {
+	box-shadow: inset 2px 20px black;
+	border-radius: 10px;
+	padding: 15px;
+	border: 10px dashed black;
+}
+h2.list-title2 {
+	padding: 15px;
+	border-radius: 30px;
+	border: 10px dotted black;
+}
+
+.main-block {
+	color: red;
+	margin: 0 0 20px 0;
+	font-weight: 700;
+	letter-spacing: 5px;
+}
+p {
+	margin: 0 0 20px 0;
+}
+.text2 {
+	opacity: 0.4;
+}
+
+.block-list {
+	font-family: "IBM Plex Serif", serif;
+	font-size: 30px;
+	margin: 0 0 20px 0;
+}
+.list li {
+	margin: 0 0 10px 0;
+}
+
+.block-list2 {
+	margin: 0 0 20px 0;
+	font-family: "Yanone Kaffeesatz", sans-serif;
+	font-weight: 300;
+}
+.list2 li {
+	margin: 0 0 10px 500px;
+	text-transform: uppercase;
+}
+
+.link {
+	box-shadow: 10px 10px 5px blue;
+	border: 1px solid black;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 10px;
+}
+.block-about {
+	max-height: 500px;
+	overflow: auto;
+}
+.subtitle {
+	color: darkgreen;
+	font-size: 40px;
+	font-family: "Lobster", cursive;
+}
+.text-about {
+	color: blueviolet;
+	font-weight: 700;
+	font-size: 25px;
+}
+.text-about2 {
+	font-family: "Balsamiq Sans", cursive;
+	font-size: 35px;
+	color: brown;
+}
+.text3 {
+	visibility: hidden;
+}
+.circle {
+	margin: 0 0 0 150px;
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	overflow: hidden;
+}
